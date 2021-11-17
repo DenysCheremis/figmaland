@@ -1,0 +1,27 @@
+.finance{
+    min-height: 758px;
+    padding: 110px 0 110px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-right: 90px;
+        }
+        &__descr{
+            &__adaptive{
+                display: none;
+            }
+        }
+    }
+    &__descr{
+        margin-top: 47px;
+        margin-bottom: 37px;
+        width: 483px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5C5C5C;
+        text-align: left;
+    }
+}

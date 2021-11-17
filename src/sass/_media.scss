@@ -1,0 +1,784 @@
+@media(max-width: 1440px){
+    .header{
+        &__logo{
+            margin-left: 100px;
+        }
+        &__title{
+            width: 595px;
+            font-size: 49px;
+        }
+        &__wrapper{
+            .button{
+                margin-right: 100px;
+            }
+        }
+        &__img{
+            width: 900px;
+        }
+        &__menu{
+            width: 340px;
+        }
+    }
+
+    .specially{
+        min-height: 760px;
+        padding: 70px 0;
+        &__item{
+            padding: 53px 21px 40px 21px;
+            margin: 0 4px;
+            width: 330px;
+        }
+        &__wrapper{
+            margin-top: 70px;
+        }
+    }
+
+    .container{
+        width: 1024px;
+    }
+
+    .process{
+        min-height: 485px;
+        padding: 70px 0 30px 0;
+        img{
+            width: 440px;
+        }
+        &__wrapper{
+            &__button{
+                :first-child{
+                    margin-right: 11px;
+                }
+            }
+            &__descr{
+                width: 475px;
+                margin-right: 13px;
+            }
+        }
+        &__descr{
+            width: 470px;
+        }
+    }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .tariffs{
+        &__item{
+            margin-right: 20px;
+            width: 310px;
+        }
+    }
+
+    .finance{
+        min-height: 455px;
+        padding: 0 0 70px 0;
+        img{
+            width: 440px;
+            margin-right: 40px;
+        }
+    }
+
+    .businesse{
+        min-height: 420px;
+        padding-top: 0px;
+        &__img{
+            width: 450px;
+        }
+        &__descr{
+            width: 425px;
+            font-size: 16px;
+            margin-top: 23px;
+            margin-bottom: 23px;
+        }
+        &__wrapper{
+            &__descr{
+                margin-right: 25px;
+            }
+        }
+    }
+
+    .button{
+        &_blue-1{
+            width: 200px;
+        }
+        &_blue-2{
+            width: 190px;
+        }
+    }
+
+    .footer{
+        &__wrapper-price{
+            width:265px;
+            margin-right: 50px;
+        }
+        iframe{
+            width: 305px;
+            height: 272px;
+            margin-right: 50px;
+        }
+    }
+}
+
+@media(max-width: 1023px){
+    .container{
+        width: 768px;
+    }
+
+    .header{
+        min-height: 1040px;
+        padding-bottom: 55px;
+        &__title{
+            font-size: 48px;
+            margin-top: 100px;
+        }
+        &__logo{
+            margin-left: 0;
+        }
+        &__img{
+            width: 700px;
+            margin-top: 55px;
+        }
+        &__wrapper{
+            .button{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .specially{
+        padding: 55px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            :last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__item{
+            padding: 60px 63px 50px 53px;
+            height: 440px;
+            width: 404px;
+            margin-bottom: 70px;
+            text-align: center;
+        }
+    }
+
+    .process{
+        padding: 55px 0;
+        &__wrapper{
+            flex-direction: column;
+            img{
+                width: 500px;
+            }
+            &__button{
+                display: none;
+                &__adaptive{
+                    display: flex;
+                    justify-content: center;
+                    :first-child{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .finance{
+        padding: 55px 0;
+        &__wrapper{
+            flex-direction: column;
+            &__descr{
+                display: none;
+                &__adaptive{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        img{
+            margin-right: 0;
+            width: 500px;
+        }
+    }
+
+    .businesse{
+        padding: 55px 0;
+        &__wrapper{
+            flex-direction: column;
+            &__button{
+                display: none;
+                &__adaptive{
+                    display: block;
+                    margin-top: 30px;
+                }
+            }
+            &__descr{
+            margin-right: 0;
+            }
+        }
+        img{
+            width: 500px;
+        }
+    }
+
+    .tariffs{
+        padding: 55px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            width: 400px;
+            margin-bottom: 20px;
+            margin-right: 0;
+            &__img{
+                display: block;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+            &__img-2{
+                display: block;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .footer{
+        iframe{
+           width: 250px; 
+        }
+    }
+
+    .button{
+        &_adaptive{
+        display: block;
+        }
+        &_triple{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .container{
+        &_footer{
+            flex-direction: column;
+            padding: 50px 0 50px 0;
+        }
+    }
+
+    .subscribe{
+        min-height: 343px;
+        padding-bottom: 55px;
+        &__divider{
+            margin-bottom: 55px;
+        }
+    }
+
+    .footer{
+        &__adress{
+            font-size: 17px;
+        }
+        &__wrapper-price{
+            margin-right: 0;
+            width: 370px;
+        }
+        &__signature{
+            margin-top: 20px;
+        }
+        iframe{
+            margin-right: 0;
+            width: 390px;
+            margin-top: 70px;
+        }
+        &__wrapper-social{
+            margin-top: 70px;
+            .div-1, .div-2, .div-3 {
+                display: flex;
+                justify-content: center;
+            }
+            a{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media(max-width: 820px){
+    .header{
+        &__wrapper{
+            justify-content: space-around;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 567px;
+    }
+
+    .header{
+        min-height: 890px;
+        &__wrapper{
+            img{
+                width: 100%;
+            }
+            .button{
+                width: 96px;
+                height: 36px;
+                font-size: 13px;
+            }
+        }
+        &__logo{
+            width: 130px;
+        }
+        &__img{
+            width: 500px;
+        }
+        &__menu{
+            width: 280px;
+            a{
+                font-size: 13px;
+            }
+        }
+        &__title{
+            font-size: 42px;
+            width: 500px;
+            margin-top: 85px;
+        }
+        &__subtitle{
+            font-size: 15px;
+        }
+    }
+
+    .specially{
+        padding: 60px 0;
+        .title{
+            width: 295px;
+            margin: 0 auto;
+            font-size: 46px;
+        }
+        &__wrapper{
+            margin-top: 55px;
+        }
+        &__item{
+            height: 404px;
+        }
+    }
+
+    .process{
+        .title{
+            width: 350px;
+            margin: 0 auto;
+            font-size: 46px;
+        }
+        &__descr{
+            width: 350px;
+            margin: 0 auto;
+            margin-top: 27px;
+        }
+        &__wrapper{
+            img{
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .finance{
+        .title{
+            width: 360px;
+            margin: 0 auto;
+            font-size: 46px;
+        }
+        &__descr{
+            width: 360px;
+            margin: 0 auto;
+            margin-top: 27px;
+        }
+        img{
+            margin-top: 50px;
+        }
+    }
+
+    .businesse{
+        .title{
+            width: 371px;
+            font-size: 46px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__descr{
+            display: none;
+        }
+        &__descr-adaptive{
+            font-size: 18px;
+            width: 371px;
+            margin-top: 27px;
+            text-align: center;
+        }
+        img{
+            margin-top: 50px;
+            width: 465px;
+        }
+        &__wrapper{
+            &__button{
+                &__adaptive{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    .tariffs{
+        .title{
+            font-size: 46px;
+            width: 350px;
+            margin: 0 auto;
+        }
+        &__subtitle{
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 22px;
+        }
+    }
+}
+
+@media(max-width: 565px){
+    .container{
+        width: 320px;
+    }
+    .header{
+        padding: 28px 0 50px 0;
+        &__menu{
+            position: fixed;
+            flex-direction: column;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0, .8);
+            transition: 1s all;
+            &_active{
+                left: 0;
+            }
+            li{
+                margin: 20px 0;
+            }
+            a{
+                font-size: 20px;
+            }
+        }
+        &__wrapper{
+            width: 300px;
+            justify-content: flex-start;
+            .button{
+                margin-left: 10px;
+            }
+            img{
+                margin-left: 10px;
+            }
+        }
+        &__title{
+            width: 300px;
+            font-weight: 500;
+            line-height: 57px;
+            margin-top: 80px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__wrapper-button{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 55px;
+        }
+        &__img{
+            width: 300px;
+            margin-top: 95px;
+        }
+        .button{
+            &_twice{
+                margin-top: 0;
+                margin-right: 0;
+                width: 252px;
+                height: 52px;
+                &:last-child{
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 27px;
+        top: 33px;
+        width: 40px;
+        height: 20px;
+        span{
+            margin-bottom: 7px;
+            transition: 0.5s all;
+            &:nth-child(1){
+                display: block;
+                width: 44px;
+                height: 5px;
+                background-color: #fff;
+            }
+            &:nth-child(2){
+                margin-left: 11px;
+                display: block;
+                width: 33px;
+                height: 5px;
+                background-color: #fff;
+            }
+            &:nth-child(3){
+                margin-left: 24px;
+                display: block;
+                width: 20px;
+                height: 5px;
+                background-color: #fff;
+            }
+        }
+        &_active{
+            top: 45px;
+            span{
+                margin-bottom: -5px;
+                &:nth-child(1){
+                    transform: rotate(-45deg);
+                }
+                &:nth-child(2){
+                    display: none;
+                }
+                &:nth-child(3){
+                    transform: rotate(45deg);
+                    width: 44px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .specially{
+        padding: 50px 0 50px 0;
+        .title{
+            line-height: 57px;
+        }
+        &__wrapper{
+            margin-top: 45px;
+        }
+        &__item{
+            padding: 42px 16px;
+            margin-bottom: 64px;
+            width: 300px;
+            height: 375px;
+            &__title{
+                margin-top: 25px;
+                font-size: 28px;
+            }
+        }
+    }
+    .process{
+        padding: 50px 0;
+        .title{
+            line-height: 57px;
+            width: 300px;
+        }
+        &__descr{
+            width: 300px;
+        }
+        &__wrapper{
+            img{
+                width: 300px;
+                margin-top: 55px;
+            }
+            &__descr{
+                margin-right: 0;
+                width: 300px;
+            }
+            &__button{
+                &__adaptive{
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+        .button{
+            &_blue-1{
+                margin-right: 0;
+                width: 300px;
+                height: 52px;   
+            }
+            &_blue-2{
+                margin-top: 22px;
+                width: 300px;
+                height: 52px;
+            }
+        }
+    }
+    .finance{
+        .title{
+            width: 300px;
+        }
+        &__descr{
+            width: 300px;
+        }
+        img{
+            width: 300px;
+        }
+    }
+    .businesse{
+        .title{
+            width: 300px;
+        }
+        &__descr-adaptive{
+            width: 300px;
+        }
+        img{
+            width: 300px;
+        }
+        &__wrapper{
+            &__button{
+                &__adaptive{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 32px;
+                }
+            }
+        }
+        .button{
+            &_blue-1{
+                margin-right: 0;
+                width: 294px;
+                height: 76px;   
+            }
+            &_blue-2{
+                margin-top: 13px;
+                width: 281px;
+                height: 76px;
+            }
+        }
+    }
+    .tariffs{
+        .title{
+            width: 300px;
+        }
+        &__item{
+            width: 300px;
+        }
+    }
+    .subscribe{
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                margin-right: 0;
+                width: 300px;
+                &:last-child{
+                    border-radius: 6px;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+    .footer{
+        &__wrapper-price{
+            width: 300px;
+        }
+        iframe{
+            width: 300px;
+            height: 300px;
+        }
+        &__adress{
+            font-size: 16px;
+        }
+        &__wrapper-social{
+            a{
+                font-size: 16px;
+            }
+            .div-1, .div-2{
+                margin-bottom: 10px;
+            }
+            .div-3{
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+@media(width: 414px){
+    .container{
+        width: 414px;
+    }
+    .header{
+        &__img{
+            width: 370px;
+            margin-top: 55px;
+        }
+        &__wrapper{
+            img{
+                margin-left: 27px;
+            }
+            .button{
+                margin-left: 50px;
+            }
+        }
+        &__subtitle{
+            width: 330px;
+            margin: 0 auto;
+            margin-top: 27px;
+        }
+    }
+    .specially{
+        &__item{
+            width: 355px;
+            margin-bottom: 50px;
+        }
+    }
+    .process{
+        &__wrapper{
+            img{
+                width: 400px;
+            }
+        }
+    }
+    .finance{
+        img{
+            width: 400px;
+        }
+    }
+    .businesse{
+        img{
+            width: 400px;
+        }
+    }
+    .tariffs{
+        &__item{
+            width: 340px;
+        }
+    }
+    .footer{
+        &__wrapper-price{
+            width: 320px;
+        }
+        iframe{
+            width: 340px;
+        }
+        &__adress{
+            font-size: 17px;
+        }
+        &__wrapper-social{
+            a{
+                font-size: 17px;
+            }
+        }
+    }
+}

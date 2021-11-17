@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins';
+}
+
+.container{
+    width: 1390px;
+    margin: 0 auto;
+    &_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/specially';
+@import 'blocks/process';
+@import 'blocks/finance';
+@import 'blocks/businesse';
+@import 'blocks/tariffs';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+
+@import 'media';

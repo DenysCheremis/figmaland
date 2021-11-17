@@ -1,0 +1,79 @@
+.specially{
+    min-height: 852px;
+    padding: 60px 0 138px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 102px;
+    }
+    &__item{
+        padding: 60px 63px 50px 53px;
+        height: 440px;
+        width: 404px;
+        margin: 0 15px;
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        &:hover{
+            background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+            .specially__item__title{
+                color: #FFFFFF;
+                transition: 0.7s all;
+            }
+            .specially__item__descr{
+                color: #FFFFFF;
+                transition: 1s all;
+            }
+            a{
+                color: #FFFFFF;
+                transition: 0.7s all;
+            }
+            .icon-managment:before{
+                color: #FFFFFF;
+                transition: 0.7s all;
+            }
+            .icon-customer_support:before{
+                color: #FFFFFF;
+                transition: 0.7s all;
+            }
+            .icon-collaborative:before{
+                color: #FFFFFF;
+                transition: 0.7s all;
+            }
+        }
+        &__title{
+            margin-top: 40px;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 33px;
+            color: #000000;
+        }
+        &__descr{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #5C5C5C;
+        }
+        a{
+            text-decoration: none;
+            color: #03D6F3;
+        }
+    }
+}
+
+.icon-managment:before{
+    color: #03D6F3;
+    font-size: 62px;
+}
+.icon-customer_support:before{
+    color: #03D6F3;
+    font-size: 62px;
+}
+.icon-collaborative:before{
+    color: #03D6F3;
+    font-size: 62px;
+}
