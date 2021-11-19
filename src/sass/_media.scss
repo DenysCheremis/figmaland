@@ -548,6 +548,7 @@
         }
         &_active{
             top: 45px;
+            position: fixed;
             span{
                 margin-bottom: -5px;
                 &:nth-child(1){
