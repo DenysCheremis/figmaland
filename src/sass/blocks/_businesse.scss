@@ -8,9 +8,6 @@
         &__descr{
             margin-right: 50px;
         }
-        &__descr-adaptive{
-            display: none;
-        }
         &__button{
             :first-child{
                 margin-right: 7px;
@@ -32,5 +29,8 @@
         line-height: 27px;
         text-align: left;
         color: #5C5C5C;
+    }
+    &__descr-adaptive{
+        display: none;
     }
 }
